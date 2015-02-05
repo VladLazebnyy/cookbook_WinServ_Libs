@@ -1,3 +1,11 @@
-# Microsoft Visual C++ 2010  x64 Redistributable
-default['vc2013']['x64']['productname'] = 'Microsoft Visual C++ 2013  x64 Redistributable - 2013'
-default['vc2013']['x64']['url'] = 'http://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x64.exe'
+# Microsoft Visual C++ 2013  x64 Redistributable
+default['vc2013']['productname'] = 'Microsoft Visual C++ 2013  x64 Redistributable - 2013'
+default['vc2013']['url'] = 'http://download.microsoft.com/download/2/E/6/2E61CFA4-993B-4DD4-91DA-3737CD5CD6E3/vcredist_x64.exe'
+default['vc2012']['productname'] = 'Microsoft Visual C++ 2012  x64 Redistributable - 2012.4'
+default['vc2012']['url'] = 'http://download.microsoft.com/download/1/6/B/16B06F60-3B20-4FF2-B699-5E9B7962F9AE/VSU_4/vcredist_x64.exe'
+default['vc2010']['productname'] = 'Microsoft Visual C++ 2010  x64 Redistributable - 2010 SP1'
+default['vc2010']['url'] = 'http://download.microsoft.com/download/A/8/0/A80747C3-41BD-45DF-B505-E9710D2744E0/vcredist_x64.exe'
+default['vc2008']['productname'] = 'Microsoft Visual C++ 2008  x64 Redistributable - x64'
+default['vc2008']['url'] = 'http://download.microsoft.com/download/d/2/4/d242c3fb-da5a-4542-ad66-f9661d0a8d19/vcredist_x64.exe'
+default['vc2005']['productname'] = 'Microsoft Visual C++ 2005  x64 Redistributable - 8.0.50727.762'
+default['vc2005']['url'] = 'http://download.microsoft.com/download/d/4/1/d41aca8a-faa5-49a7-a5f2-ea0aa4587da0/vcredist_x64.exe'
