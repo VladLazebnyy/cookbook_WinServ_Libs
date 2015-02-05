@@ -1,0 +1,1 @@
+Get-ChildItem -Path c:\ -Filter mfc*.dll -Recurse >result.txt

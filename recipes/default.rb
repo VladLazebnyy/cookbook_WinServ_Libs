@@ -9,12 +9,12 @@
 if platform?('windows')
 	if win_version.windows_server_2008? || win_version.windows_server_2008_r2?
 		Chef::Log.warn('Recipe shall run for windows_server_2008.')
-		include_recipe "cookbook_WinSer_Libs::vcs2013"
-		include_recipe "cookbook_WinSer_Libs::vcs2012"
-		include_recipe "cookbook_WinSer_Libs::vcs2010"
 		#support only Windows Server 2008, Windows Server 2008 R2
-		include_recipe "cookbook_WinSer_Libs::vcs2008"
 		include_recipe "cookbook_WinSer_Libs::vcs2005"
+		include_recipe "cookbook_WinSer_Libs::vcs2008"
+		include_recipe "cookbook_WinSer_Libs::vcs2010"
+		include_recipe "cookbook_WinSer_Libs::vcs2012"
+		include_recipe "cookbook_WinSer_Libs::vcs2013"
 	elsif  win_version.windows_server_2012? || win_version.windows_server_2012_r2?	
 		Chef::Log.warn('Recipe shall run for windows_server_2012.')
 		include_recipe "cookbook_WinSer_Libs::vcs2013"
