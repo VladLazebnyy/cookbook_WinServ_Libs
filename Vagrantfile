@@ -23,7 +23,7 @@ Vagrant.configure(2) do |config|
    end
  config.vm.provision :chef_solo do |chef|
     chef.json = {
-      'cookbook_WinSer_Libs' => {
+    'cookbook_WinSer_Libs' => {
         'version' => :latest
       }
     }
