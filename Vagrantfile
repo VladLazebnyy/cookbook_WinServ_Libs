@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 hostname = 'libs.local'
 Vagrant.configure(2) do |config|
-  config.vm.box = "alexshd/windows_2008_r2_virtualbox"
+  config.vm.box = "opentable/win-2012r2-standard-amd64-nocm"
   config.vm.hostname = hostname
   config.vm.network :private_network, type: "dhcp"
   config.vm.guest = :windows
@@ -10,7 +10,7 @@ Vagrant.configure(2) do |config|
   config.vm.network :forwarded_port, guest: 22, host: 2222, id: "ssh", auto_correct: true
 
   config.winrm.username = "vagrant"
-  config.winrm.password = "qwert-11"
+  config.winrm.password = "vagrant"
 
 
   config.omnibus.chef_version = :latest
