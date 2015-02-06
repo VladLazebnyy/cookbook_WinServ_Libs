@@ -1,1 +1,1 @@
-Get-ChildItem -Path c:\ -Filter mscvp*.dll -Recurse >result.txt
+Get-ChildItem -Path c:\ -Filter msvcp*.dll -Recurse >result.txt
